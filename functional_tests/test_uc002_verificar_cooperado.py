@@ -16,7 +16,7 @@
 # Fluxo principal:
 # 1. O sistema identifica um cooperado que possui uma cobrança a ser gerada.
 # 2. O sistema consulta a situação cadastral do cooperado.
-# 3. O sistema verifica se o cooperado está ativo.
+# 3. O sistema verifica se o cooperado está ativo ou inativo.
 # 4. Caso esteja ativo, o sistema prossegue com a geração da cobrança.
 # 5. O sistema registra a nova cobrança.
 
@@ -32,4 +32,4 @@
 # Regras de negócio:
 # RN1 - A situação do cooperado deve ser verificada antes de cada
 # nova cobrança.
-# RN2 - Cooperados inativos não devem receber novas cobranças.
+# RN2 - Cooperados inativos não devem receber novas cobranças recorrentes.

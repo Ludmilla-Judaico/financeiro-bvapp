@@ -17,7 +17,11 @@
 # 2. O sistema apresenta a listagem unificada.
 # 3. O sistema recupera as informações necessárias para compor
 #    os indicadores gerais.
-# 4. O sistema apresenta os indicadores na listagem unificada.
+# 4. O sistema apresenta os indicadores na listagem unificada:
+#   - Total de contas e cobranças
+#   - Total de contas/cobranças pagas 
+#   - Total de contas/cobranças em aberto
+#   - Total de contas/cobranças atrasadas
 # 5. O funcionário visualiza os indicadores apresentados.
 
 # Fluxos alternativos:
@@ -32,7 +36,5 @@
 # Regras de negócio:
 # RN1 - Os indicadores devem estar relacionados às contas e cobranças
 # exibidas na listagem unificada.
-# RN2 - Os indicadores e seus critérios de cálculo devem seguir
-# as definições do módulo.
-# RN3 - Apenas funcionários com permissão de tesoureiro ou administrador
+# RN2 - Apenas funcionários com permissão de tesoureiro ou administrador
 # devem poder visualizar todas as contas e cobranças

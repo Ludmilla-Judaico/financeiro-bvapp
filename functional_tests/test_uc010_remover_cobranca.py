@@ -33,7 +33,5 @@
 # que não foi possível remover a cobrança.
 
 # Regras de negócio:
-# RN1 - A remoção deve respeitar as condições definidas
-# para cobranças.
-# RN2 - Deve ser definido se a remoção é definitiva
-# ou apenas visual.
+# # RN1 - Apenas cobranças com status "A pagar" ou "Atrasada" podem ser deletadas.
+# RN2 - A cobrança não deve ser permanentemente excluída do banco de dados. Apenas o atributo "excluida" passa a ser true

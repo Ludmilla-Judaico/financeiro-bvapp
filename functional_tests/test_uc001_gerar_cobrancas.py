@@ -13,15 +13,12 @@
 # Sistema
 
 # Fluxo principal:
-# 1. O sistema inicia o processo de geração automática de cobranças.
-# 2. O sistema identifica os cooperados que possuem cobranças a serem geradas.
-# 3. O sistema verifica os tipos de cobranças aplicáveis:
-#    - Mensais recorrentes;
-#    - Contas parceladas ativas;
-#    - Acordos ativos.
-# 4. O sistema verifica as condições necessárias para gerar cada cobrança.
-# 5. O sistema gera as cobranças correspondentes.
-# 6. O sistema registra as cobranças geradas.
+# 1. Diariamente, o sistema inicia o processo de geração automática
+# 2. O sistema identifica os cooperados elegíveis.
+# 3. O sistema identifica as cobranças recorrentes que estão na data de serem geradas.
+# 4. O sistema checa se a cobrança está ativa.
+# 5. O sistema verifica se as cobranças já foram geradas.
+# 6. O sistema registra as novas cobranças.
 
 # Fluxos alternativos:
 # A1 - Cooperado sem cobranças pendentes:
@@ -33,7 +30,8 @@
 # o processo é encerrado sem gerar cobranças.
 
 # Regras de negócio:
-# RN1 - O sistema deve contemplar cobranças mensais recorrentes,
-# contas parceladas ativas e acordos ativos.
-# RN2 - As condições específicas de geração de cada tipo de cobrança
-# devem ser respeitadas.
+# RN1 - O sistema deve contemplar cobranças mensais recorrentes e
+# contas parceladas ativas.
+# RN2 - Cobranças recorrentes são geradas na frequência definida no momento do cadastro
+# RN3 - Parcelas de cobranças parceladas são criadas imediatamente após o cadastro da cobrança
+# RN4 -  A soma de cada parcela de uma cobrança parcelada deve ser o total da cobrança definido no momento do cadastro

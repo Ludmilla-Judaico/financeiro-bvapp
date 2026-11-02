@@ -13,8 +13,9 @@
 
 # Fluxo principal:
 # 1. O funcionário acessa o módulo Contas e Cobranças.
-# 2. O sistema recupera as informações necessárias para compor o balanço.
-# 3. O sistema apresenta o balanço de contas ao funcionário
+# 2. O sistema recupera a soma dos valores das cobranças pagas (entrada)
+# 3. O sistema recupera a soma dos valores das contas pagas (saída)
+# 4. O sistema apresenta o balanço de valores ao funcionário
 # em forma de Dashboard.
 
 # Fluxos alternativos:
@@ -27,6 +28,8 @@
 # que não foi possível apresentar o balanço.
 
 # Regras de negócio:
-# RN1 - O balanço deve ser composto por informações referentes às contas.
-# RN2 - Os dados considerados e os critérios de cálculo devem seguir
-# as definições da funcionalidade.
+# RN1 - O balanço deve ser composto por informações referentes às contas/cobranças PAGAS.
+# RN2 - A soma das cobranças (pertence aos cooperados) pagas representa
+# o valor recebido pela cooperativa no período definido
+# RN3 - A soma das contas (pertence à cooperativa) pagas representa
+# o valor gasto pela cooperativa no período definido
