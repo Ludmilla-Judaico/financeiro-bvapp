@@ -208,7 +208,7 @@ Responsável pela elaboração: Ludmilla Judaico
 
 # 🟣 [RN1] VALIDAÇÃO DOS CAMPOS
 # ---------------------------------------------------------------
-# São obrigatórios: Cooperado, Nome, Categoria, Valor, Recorrência,
+# São obrigatórios: Cooperado, Nome, Valor, Recorrência,
 # Intervalo e Data de lançamento. O Número de parcelas é obrigatório
 # nas parceladas. Descrição e juros são opcionais.
 # A taxa de juros, quando informada, deve ser maior que 0% e menor
