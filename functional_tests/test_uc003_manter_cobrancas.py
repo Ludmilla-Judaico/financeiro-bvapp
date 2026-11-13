@@ -21,7 +21,6 @@ Responsável pela elaboração: Ludmilla Judaico
 # os campos:
 # - Cooperado
 # - Nome da cobrança
-# - Categoria
 # - Descrição
 # - Recorrência (Única, Parcelada ou Recorrente)
 # - Valor (R$)
@@ -249,4 +248,4 @@ Responsável pela elaboração: Ludmilla Judaico
 # Entrada: cooperado ativo, nome "Mensalidade", valor R$ 1.000,00,
 # 3 parcelas, intervalo 30 dias.
 # Saída: 3 parcelas "Aberta" (333,33; 333,33; 333,34), soma igual a
-# R$ 1.000,00, registro no log de auditoria e mensagem de sucesso.
+# R$ 1.000,00 e mensagem de sucesso.
