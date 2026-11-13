@@ -35,7 +35,7 @@ Responsável pela elaboração: Ludmilla Judaico
 # -- Botão "Cancelar"
 
 # O ator seleciona um cooperado ativo, informa o nome "Mensalidade",
-# a categoria "Mensalidade", a recorrência "Parcelada", o valor
+# a recorrência "Parcelada", o valor
 # R$ 1.000,00, 3 parcelas, intervalo de 30 dias, a data de lançamento
 # e a data do primeiro vencimento.
 
